@@ -26,6 +26,7 @@ function push_sh {
 
 function plot_sh {
     $sourceHome/plot 0 $inRootFile $vecNamesFile
+    evince $inRootFile".pdf" &
 }
 
 function ldd_info_sh {
